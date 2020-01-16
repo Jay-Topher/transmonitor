@@ -1,4 +1,5 @@
 import React from 'react'
+import './SidebarLabel.scss'
 
 const SidebarLabel = ({text}) => {
   return (
