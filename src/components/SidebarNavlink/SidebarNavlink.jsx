@@ -1,4 +1,5 @@
 import React from "react";
+import './SidebarNavlink.scss'
 
 const SidebarNavlink = ({ text, icon }) => {
   return (
@@ -7,7 +8,7 @@ const SidebarNavlink = ({ text, icon }) => {
         <span className="icon">
           <img src={icon} alt="icon" />
         </span>
-        <p>{text}</p>
+        <span>{text}</span>
       </a>
     </div>
   );
