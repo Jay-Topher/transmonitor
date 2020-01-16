@@ -1,10 +1,17 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./Layout/Navbar/Navbar";
+import Sidebar from "./Layout/Sidebar/Sidebar";
+import Main from "./Layout/Main/Main";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navbar />
+      <div className="container">
+        <Sidebar />
+        <Main />
+      </div>
     </div>
   );
 }
