@@ -1,0 +1,37 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  // width: 100%;
+  padding: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.15);
+  font-size: 14px;
+  color: #647787;
+
+  .left_navbar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+
+    .search {
+      label {
+        margin-right: 4px;
+      }
+      input {
+        border: none;
+      }
+    }
+  }
+  .right_navbar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      color: #647787;
+    }
+  }
+}
