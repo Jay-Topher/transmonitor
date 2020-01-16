@@ -1,0 +1,18 @@
+.SidebarNavlink {
+  width: 100%;
+
+  &:hover {
+    background-color: #1875F0;
+    opacity: 0.1;
+    border-left: 2px solid #1875F0;
+  }
+  .links {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+    .icon {
+      margin-right: 5px;
+    }
+  }
+}
