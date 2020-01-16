@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  .profile_text {
+    text-align: right;
+    margin-right: 10px;
+
+    .hello {
+      font-size: 10px;
+    }
+    .name {
+      font-size: 14px;
+    }
+  }
+}
