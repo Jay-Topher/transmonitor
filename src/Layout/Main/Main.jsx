@@ -32,7 +32,7 @@ const Main = () => {
       <div className="Main_child">
         <TransactionContainer />
         <ChartRow />
-        <h3 className="heading">Payments</h3>
+        <h3 className="heading mt-4">Payments</h3>
         <div className="pre_paginate">
           <div className="showing">
             <div>
