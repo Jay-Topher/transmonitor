@@ -1,0 +1,32 @@
+.SummaryCard {
+  width: 376px;
+  height: 165px;
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid #EEF8FD;
+  border-radius: 2px;
+  h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
+  }
+
+  p {
+    font-size: 14px;
+    span {
+      font-weight: 700;
+      &.sp_yellow {
+        color: #fdc203;
+      }
+
+      &.sp_green {
+        color: #27ae60;
+      }
+
+      &.sp_blue {
+        color: #1860ec;
+      }
+    }
+  }
+}

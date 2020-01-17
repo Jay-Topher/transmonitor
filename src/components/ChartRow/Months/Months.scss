@@ -1,0 +1,17 @@
+.Months {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+
+  &:first-child {
+    margin-left: -20px;
+  }
+  &:last-child {
+    margin-right: -20px;
+  }
+
+  .month {
+    font-weight: 700;
+    color: #000;
+  }
+}

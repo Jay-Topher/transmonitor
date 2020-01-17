@@ -1,0 +1,30 @@
+.ChartBody {
+  width: 691px;
+  height: 330px;
+  background-color: #fff;
+  border: 1px solid #EEF8FD;
+
+  .chart_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #4f4f4f;
+    }
+
+    .chart_selects {
+      display: flex;
+      align-items: center;
+      span {
+        .chart_btn {
+          border: none;
+          background: none;
+        } 
+      }
+    }
+  }
+}
