@@ -30,13 +30,13 @@ const Sidebar = () => {
       <div className="links_collection">
         <SidebarLabel text="Payments" />
         {navLinks.map(nav => (
-          <SidebarNavlink text={nav.text} icon={nav.icon} />
+          <SidebarNavlink text={nav.text} icon={nav.icon} key={nav.text} />
         ))}
       </div>
       <div className="links_collection">
         <SidebarLabel text="Orders" />
         {navLinks2.map(nav => (
-          <SidebarNavlink text={nav.text} icon={nav.icon} />
+          <SidebarNavlink text={nav.text} icon={nav.icon} key={nav.text} />
         ))}
       </div>
       <div className="links_collection">
