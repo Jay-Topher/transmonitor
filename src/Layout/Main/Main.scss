@@ -5,6 +5,53 @@
 
   &_child {
     width: 1068px;
-    margin: 30px auto;
+    margin: 20px auto;
+
+    .pre_paginate {
+      margin-left: -25px;
+      margin-bottom: 30px;
+    }
+
+    .table {
+      max-height: 726px;
+      overflow: auto;
+    }
+
+    .table_summary {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
+
+.showing {
+  display: flex;
+  justify-content: space-evenly;
+
+  .search {
+    flex: 1;
+    border-bottom: 1px solid #787878;
+    input {
+      background: none;
+      border: none;
+
+
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 11px;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        font-size: 11px;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        font-size: 11px;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        font-size: 11px;
+      }
+    }
+  }
+  .show_select {
+    flex: 1;
+  }
+}
+
