@@ -2,4 +2,9 @@
   flex: 5;
   background-color: #e5e5e5;
   height: 1510px;
+
+  &_child {
+    width: 1068px;
+    margin: 30px auto;
+  }
 }
