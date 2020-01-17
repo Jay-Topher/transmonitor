@@ -1,0 +1,30 @@
+.TransactionCard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 253px;
+  height: 75px;
+  background-color: #fff;
+  border: 1px solid #EEF8FD;
+  
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+  &:nth-child(2) {
+    margin-right: 20px;
+  }
+  &:nth-child(3) {
+    margin-left: 20px;
+  }
+
+  .transaction_details {
+    .title {
+      font-size: 12px;
+      color: #787c90;
+    }
+    .price {
+      font-size: 18px;
+      color: #262626;
+    }
+  }
+}
