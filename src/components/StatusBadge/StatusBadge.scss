@@ -1,0 +1,33 @@
+.StatusBadge {
+  display: flex;
+
+  .color_badge {
+    width: 120px;
+    height: 33px;
+    border: 1px solid #cccfd4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .point {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+    }
+
+    .sm_text {
+      font-size: 12px;
+    }
+
+    .text_color_green {
+      color: #27ae60;
+    }
+    .text_color_yellow {
+      color: #ebc315;
+    }
+    .text_color_grey {
+      color: #c4c4c4;
+    }
+  }
+}
