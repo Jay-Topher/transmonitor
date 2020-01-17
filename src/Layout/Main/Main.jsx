@@ -9,6 +9,23 @@ const Main = () => {
       <div className="Main_child bordered">
         <TransactionContainer />
         <ChartRow />
+              <CustomSelect
+                data={[10, 15, 20, 25]}
+                type="small"
+                hasBorder={false}
+                onSelect={onSelect}
+              />
+              <CustomSelect
+                data={[
+                  "All",
+                  "Reconciled",
+                  "Un-reconciled",
+                  "Settled",
+                  "Unsettled"
+                ]}
+                hasBorder={true}
+                type="normal"
+              />
       </div>
     </div>
   );
