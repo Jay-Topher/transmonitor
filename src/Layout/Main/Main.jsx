@@ -4,6 +4,12 @@ import TransactionContainer from "../../components/TransactionContainer/Transact
 import ChartRow from "../../components/ChartRow/ChartRow";
 
 const Main = () => {
+  const [tableData, setTableData] = useState([]);
+  useEffect(() => {
+    fetch("metadata.json")
+      .then(res => res.json())
+      .then(res => setTableData(res.tableData));
+  }, []);
   return (
     <div className="Main">
       <div className="Main_child bordered">
@@ -28,6 +34,10 @@ const Main = () => {
               />
       </div>
     </div>
+        </div>
+        <div className="table">
+          {loading ? <h4>Loading...</h4> : <Table tableData={currentData} />}
+        </div>
   );
 };
 
